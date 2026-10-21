@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-21T18:09:31 IST" name="Default suite" finished-at="2026-10-21T18:09:39 IST" duration-ms="8353">
+    <groups>
+    </groups>
+    <test started-at="2026-10-21T18:09:31 IST" name="Default test" finished-at="2026-10-21T18:09:39 IST" duration-ms="8353">
+      <class name="RegressionTesting.Excel_TC_002">
+        <test-method is-config="true" signature="Browser()[pri:0, instance:RegressionTesting.Excel_TC_002@1a677343]" started-at="2026-10-21T18:09:31 IST" name="Browser" finished-at="2026-10-21T18:09:31 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method is-config="true" signature="Applaunch()[pri:0, instance:RegressionTesting.Excel_TC_002@1a677343]" started-at="2026-10-21T18:09:31 IST" name="Applaunch" finished-at="2026-10-21T18:09:35 IST" duration-ms="3722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applaunch -->
+        <test-method signature="LoginRegressionPage(java.util.HashMap)[pri:0, instance:RegressionTesting.Excel_TC_002@1a677343]" started-at="2026-10-21T18:09:35 IST" name="LoginRegressionPage" description="Success Login page" data-provider="getRetireveExcelData" finished-at="2026-10-21T18:09:36 IST" duration-ms="863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Exp-Title=Adactin.com - Hotel Reservation System, username=kolluboinachinnaBabu, Password=Chinna$006}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginRegressionPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RegressionTesting.Excel_TC_002@1a677343]" started-at="2026-10-21T18:09:36 IST" name="tearDown" finished-at="2026-10-21T18:09:39 IST" duration-ms="3221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RegressionTesting.Excel_TC_002 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
